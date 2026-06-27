@@ -1,0 +1,9 @@
+# Ignore zip archives
+*.zip
+
+# Ignore backup/duplicate files
+*(1).*
+
+# System files
+.DS_Store
+Thumbs.db
