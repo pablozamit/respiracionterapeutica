@@ -129,10 +129,10 @@
         </p>
 
         <div class="reveal flex flex-col sm:flex-row items-center justify-center gap-5">
-          <a href="https://api.whatsapp.com/send?phone=34608116884&text=Quiero%20unirme%20al%20reto%20de%20respiraci%C3%B3n"
+          <a href="https://api.whatsapp.com/send?phone=34608116884&text=Hola!%20Quiero%20unirme%20al%20reto%20de%20respiraci%C3%B3n%20y%20solicitar%20el%20descuento"
              target="_blank" rel="noopener"
              class="gold-pulse w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 rounded-full text-base font-medium bg-gold text-bg-dark hover:bg-gold/90 transition-transform active:scale-[0.98]">
-            Quiero mi plaza en el reto
+            Solicitar descuento y unirme
             <i data-lucide="message-square" class="w-5 h-5 fill-bg-dark text-bg-dark"></i>
           </a>
           <a href="#simulador" 
@@ -343,25 +343,33 @@
             Como cada participante recibe un acompañamiento riguroso de feedback personalizado diario, las plazas por ciclo son limitadas para garantizar el soporte diario individualizado.
           </p>
 
-          <!-- Price Display (Elegantly shows a flat 50€ payment with support) -->
-          <div class="py-6 flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 bg-bg-dark/60 rounded-2xl border border-sand/5 max-w-sm mx-auto my-8">
-            <div class="text-center sm:text-left">
-              <span class="block text-[10px] uppercase tracking-wider text-sand/40">Inscripción al reto</span>
-              <span class="block text-4xl font-semibold text-sand">50€ <span class="text-xs text-gold font-light">Pago único</span></span>
+          <!-- Price Display (Sleek callout box explaining the active discount) -->
+          <div class="relative max-w-md mx-auto my-10 p-6 md:p-8 rounded-2xl border border-gold/30 bg-bg-dark/65 shadow-2xl space-y-6">
+            <!-- Pulsing Badge -->
+            <div class="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 bg-gold text-bg-dark px-4 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase shadow-md">
+              <span class="w-1.5 h-1.5 rounded-full bg-bg-dark animate-pulse inline-block"></span>
+              🎁 Descuento de Lanzamiento Activo
             </div>
-            <div class="h-px w-16 sm:h-12 sm:w-px bg-sand/15"></div>
-            <div class="text-center sm:text-left space-y-1">
-              <span class="inline-block text-[9px] font-semibold tracking-wider uppercase px-2 py-0.5 rounded bg-moss/20 text-moss-light border border-moss/30">Soporte Individual</span>
-              <p class="text-[10px] text-sand/50 leading-relaxed">Acompañamiento diario 1-a-1 incluido.</p>
+            
+            <div class="text-center space-y-3 pt-3">
+              <h3 class="font-serif text-2xl font-light text-sand">Inscripción con Descuento</h3>
+              <p class="text-sm text-sand/70 leading-relaxed max-w-sm mx-auto">
+                Hay una bonificación especial activa para las plazas de este ciclo. Para conseguir tu acceso con descuento, solo tienes que iniciar una conversación conmigo por WhatsApp.
+              </p>
+            </div>
+            
+            <div class="pt-4 border-t border-sand/5 flex items-center justify-center gap-2 text-[10px] text-moss-light font-medium uppercase tracking-wider">
+              <i data-lucide="shield-check" class="w-4 h-4 text-moss-light"></i>
+              Garantía de tranquilidad de 5 días incluida
             </div>
           </div>
 
           <!-- Buttons -->
           <div class="space-y-4">
-            <a href="https://api.whatsapp.com/send?phone=34608116884&text=Quiero%20unirme%20al%20reto%20de%20respiraci%C3%B3n"
+            <a href="https://api.whatsapp.com/send?phone=34608116884&text=Hola!%20Quiero%20unirme%20al%20reto%20de%20respiraci%C3%B3n%20y%20solicitar%20el%20descuento"
                target="_blank" rel="noopener"
                class="gold-pulse inline-flex items-center justify-center gap-3 w-full sm:w-auto px-10 py-5 rounded-full text-lg font-medium bg-gold text-bg-dark hover:bg-gold/90 transition-transform active:scale-[0.98]">
-              Quiero unirme al reto por WhatsApp
+              Solicitar mi descuento por WhatsApp
               <i data-lucide="message-square" class="w-5 h-5 fill-bg-dark text-bg-dark"></i>
             </a>
             
